@@ -10,12 +10,13 @@ todoForm.addEventListener('submit', function (e) {
   const inputValue = document.querySelector('#todo-input');
   let inputvalue = inputValue.value;
   const newLi= document.createElement('li');
+ 
   const newliInnerHTML=  `<span class="text">${inputvalue}</span>
           <div class="todo-buttons">
             <button class="todo-btn done">Done</button>
             <button class="todo-btn remove">Remove</button>
           </div> 
-`
+` 
 if(inputValue.value){
 newLi.innerHTML=newliInnerHTML;
 todoList.append(newLi);
