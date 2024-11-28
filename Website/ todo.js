@@ -1,4 +1,4 @@
-var todo = [{ id1: "", }, { id: "", }]
+ 
 
 const todoForm = document.querySelector('.form-todo');
 const todoList =document.querySelector('.todo-list');
